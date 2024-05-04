@@ -1,0 +1,13 @@
+name = "generate-image-from-html"
+compatibility_date = "2023-03-14"
+
+browser = { binding = "MYBROWSER" }
+node_compat = true
+workers_dev = true
+
+[site]
+bucket = "./assets"
+
+[vars]
+DEBUG = "true"
+WORKER_URL = "http://localhost:8787"
